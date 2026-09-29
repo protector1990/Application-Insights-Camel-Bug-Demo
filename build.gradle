@@ -24,7 +24,6 @@ dependencies {
     implementation 'org.apache.camel.springboot:camel-jms-starter:4.22.1'
     implementation 'org.apache.camel.springboot:camel-jackson-starter:4.22.1'
     implementation 'org.apache.camel.springboot:camel-activemq-starter:4.22.1'
-    implementation 'org.apache.camel.springboot:camel-opentelemetry-starter:4.22.1'
     implementation("org.springframework.boot:spring-boot-starter-activemq")
     implementation("io.opentelemetry:opentelemetry-api:1.55.0")
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
